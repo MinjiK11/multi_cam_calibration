@@ -4,9 +4,9 @@ This repository provides a pipeline for performing **multi camera extrinsic cali
 
 
 <p align="center">
-  <img src="docs/environment.jpg" width="350">
-  <img src="docs/merged_pcd_voxel.png" width="350">
-  <img src="docs/merged_pcd_rgb.png" width="350">
+  <img src="docs/environment.jpg" width="300">
+  <img src="docs/merged_pcd_voxel.png" width="300">
+  <img src="docs/merged_pcd_rgb.png" width="300">
 </p>
 
 
