@@ -1,0 +1,29 @@
+######################################## Boards Parameters ###################################################
+number_x_square: 6 # number of squares in the X direction
+number_y_square: 9 # number of squares in the Y direction
+length_square: 0.0835 # size of the square on the charuco board (in m)
+length_marker: 0.0635 # size of the marker on the charuco board (in m)
+
+######################################## Camera Parameters ###################################################
+number_camera: 3 # number of cameras to calibrate
+cam_intrinsic_path: "./config/intrinsic.yml" # file with cameras intrinsics to initialize the intrinsic, write "None" if no initialization available 
+fix_intrinsic: 1 # if 1 then the intrinsic parameters will not be estimated nor refined (initial value needed)
+ref_cam: 0
+width: 1280
+height: 720
+
+######################################## Images Parameters ###################################################
+data_path: "./color" # color image path
+depth_path: "./depth" # depth image path
+obj_img_path: "./color"
+obj_depth_path: "./depth"
+
+######################################## Optimization Parameters ###################################################
+ransac_threshold: 3 # RANSAC threshold in pixel (keep it high just to remove strong outliers)
+number_iterations: 1000    # Max number of iterations for the non linear refinement
+
+######################################## Output Parameters ###################################################
+save_path: "./result" # save path
+save_detection: 1 # save detection
+save_reprojection: 1 # save reprojection result
+
