@@ -34,9 +34,9 @@ python data_collection.py --config ./config/config.yml
 We provide a sample dataset captured in a multi-camera environment using three Intel RealSense cameras (located in ./color).
 
 <p align="center">
-  <img src="color/0.png" width="300">
-  <img src="color/1.png" width="300">
-  <img src="color/2.png" width="300">
+  <img src="./color/0.png" width="300">
+  <img src="./color/1.png" width="300">
+  <img src="./color/2.png" width="300">
 </p>
 
 
